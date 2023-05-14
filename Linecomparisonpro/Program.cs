@@ -10,7 +10,7 @@ namespace Linecomparisonpro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to LinecomparisonproUC1");
+            Console.WriteLine("Welcome to LinecomparisonUC1");
             Console.WriteLine("plese Enter the x1 and y1 cordinates");
             int x1 = Convert.ToInt32(Console.ReadLine());
             int y1 = Convert.ToInt32(Console.ReadLine());

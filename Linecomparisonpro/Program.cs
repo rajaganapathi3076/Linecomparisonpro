@@ -10,7 +10,7 @@ namespace Linecomparisonpro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to line comparison problemUC2");
+            Console.WriteLine("Welcome to line comparison problemUC3");
             Console.WriteLine("Plese enter the value of x1 and y1");
             int x1 = Convert.ToInt32(Console.ReadLine());
             int y1 = Convert.ToInt32(Console.ReadLine());
@@ -29,13 +29,17 @@ namespace Linecomparisonpro
             Console.WriteLine("The length of the  1st line :%.4F" + Math.Sqrt(distance1));
             Console.WriteLine("The length of the  2st line :%.4F" + Math.Sqrt(distance2));
 
-            if (distance1 == distance2)
+            if (distance1 >= distance2)
             {
-                Console.WriteLine("The line length  is Equals");
+                Console.WriteLine("The 1st line is greater");
+            }
+            else if (distance1 > distance2)
+            {
+                Console.WriteLine("The first number is smallerthen second number");
             }
             else
             {
-                Console.WriteLine("The line is not Equals");
+                Console.WriteLine("Nill");
             }
             Console.ReadLine();
 
